@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "skyfall_crates",
+  "version": "1.0.0",
+  "name": "Skyfall Crates",
+  "description": "Periodic blue supply crates with escalating weapon loot.",
+  "environment": "*",
+  "entrypoints": {"main": ["com.enderdevelopment.skyfall.SkyfallCrates"]},
+  "depends": {"fabricloader": ">=0.20.1", "minecraft": "26.3", "java": ">=25", "fabric-api": "*"}
+}
